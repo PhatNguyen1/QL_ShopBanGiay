@@ -1,0 +1,665 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/anhvu13/fashion.github.io/main/icon.png" type="image/x-icon">
+=======
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="image/icon.png" type="image/x-icon" />
+>>>>>>> parent of be4c06e (Sua file anh index)
+=======
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="~/image/icon.png" type="image/x-icon" />
+>>>>>>> parent of 5cc7043 (web)
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="~/Content/Css/style.css" />
+</head>
+
+<body>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <!-- Headr section ends -->
+    @RenderPage("_Header.cshtml");
+    <!-- Header section ends -->
+=======
+    <header class="header">
+        <a href="#" class="logo"><img src="image/logo.jpg"></a>
+>>>>>>> parent of be4c06e (Sua file anh index)
+=======
+    <header class="header">
+        <a href="#" class="logo"><img src="~/image/logo.jpg"></a>
+>>>>>>> parent of 5cc7043 (web)
+
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#products">sản phẩm</a>
+                    <ul>
+                        <li>
+                            <a href="#">Đồ Nam</a>
+                            <ul>
+                                <li><a href="#">Áo nam</a></li>
+                                <li><a href="#">Vest - Blazer</a></li>
+                                <li><a href="#">Quần nam</a></li>
+                                <li><a href="#">Đồ nữ</a></li>
+                                <li><a href="#">Áo khoác nam</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Đồ nữ</a>
+                            <ul>
+                                <li><a href="#">Áo nữ</a></li>
+                                <li><a href="#">Áo dài</a></li>
+                                <li><a href="#">Áo khoác nữ</a></li>
+                                <li><a href="#">Quần nữ</a></li>
+                                <li><a href="#">Đầm</a></li>
+                                <li><a href="#">Váy</a></li>
+                                <li><a href="#">Chân váy</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Phụ kiện</a>
+                            <ul>
+                                <li><a href="#">Mắt Kính</a></li>
+                                <li><a href="#">Giày - Dép</a></li>
+                                <li><a href="#">Mũ - Nón</a></li>
+                                <li><a href="#">Vớ - Tất</a></li>
+                                <li><a href="#">Thắt Lưng</a></li>
+                                <li><a href="#">Túi - Ví</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Bộ Sưu Tập</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">ZOE WABI SABI</a></li>
+                        <li><a href="#">SUMMER 2023</a></li>
+                        <li><a href="#">ZOE CRAFT</a></li>
+                        <li><a href="#">BACK TO SCHOOL</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Cửa Hàng</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">VẼ GIÀY ZOE-ZOE </a></li>
+                        <li><a href="#">SNEAKER & CRAFT</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Blogs</a>
+                    <ul class="dropdown-content">
+                        <li class="has-submenu">
+                            <a href="#">TIN TỨC</a>
+                            <ul class="submenu">
+                                <li><a href="#">WABI SABI COLLECTION 2023</a></li>
+                                <li><a href="#">SUMMER COLLECTION 2023</a></li>
+                                <li><a href="#">vỀ GIÀY CÙNG ZOE-ZOE SNEAKER & CRAFT</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">LOOKBOOK</a></li>
+                        <li><a href="#">ZOE SNEAKER & CRAFT</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div href="#" class="fas fa-shopping-cart" id="shopping-cart-btn" data-bs-toggle="modal"
+                 data-bs-target="#exampleModal">
+                <span title="so lg san pham da chon" id="sosp">0</span>
+            </div>
+            <div href="#" class="fas fa-heart" data-bs-toggle="modal" data-bs-target="#exampleModal_heart"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box" />
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" style="position: absolute; right: 0;transform: translate(-6%,4rem);">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-center" id="exampleModalLabel">Giỏ hàng</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <table>
+                            <tr>
+                                <th>Ảnh</th>
+                                <th>Tên</th>
+                                <th>Đơn giá</th>
+                                <th>Số lượng</th>
+                            </tr>
+                            <tbody id="giohang"></tbody>
+                            <tr>
+                                <th colspan="2">Tổng đơn hàng</th>
+                                <th colspan="2"><span id="tongdonhang">0000</span>đ</th>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal_heart" tabindex="-1" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-lg" style="position: absolute; right: 0;transform: translate(-6%,4rem);">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-center" id="exampleModalLabel">Yêu thích</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <table>
+                            <tr>
+                                <th>Ảnh sản phẩm</th>
+                                <th>Tên</th>
+                                <th>Đơn giá</th>
+                            </tr>
+                            <tbody id="liked"></tbody>
+
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    @RenderBody()
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <!-- Product section ends -->
+=======
+=======
+>>>>>>> parent of 5cc7043 (web)
+    <section class="home" id="home">
+        <div id="demo" class="carousel" data-bs-ride="carousel">
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+<<<<<<< HEAD
+                    <img src="./image/banner1.jpg" alt="Los Angeles" class="d-block" style="width: 100%" />
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/banner2.jpg" alt="Chicago" class="d-block" style="width: 100%" />
+=======
+                    <img src="~/image/banner1.jpg" alt="Los Angeles" class="d-block" style="width: 100%" />
+                </div>
+                <div class="carousel-item">
+                    <img src="~/image/banner2.jpg" alt="Chicago" class="d-block" style="width: 100%" />
+>>>>>>> parent of 5cc7043 (web)
+                    <div class="carousel-caption caption-left">
+                    </div>
+                </div>
+                <div class="carousel-item">
+<<<<<<< HEAD
+                    <img src="./image/banner3.jpg" alt="New York" class="d-block" style="width: 100%" />
+=======
+                    <img src="~/image/banner3.jpg" alt="New York" class="d-block" style="width: 100%" />
+>>>>>>> parent of 5cc7043 (web)
+                    <div class="carousel-caption caption-left">
+                    </div>
+                </div>
+            </div>
+<<<<<<< HEAD
+>>>>>>> parent of be4c06e (Sua file anh index)
+=======
+>>>>>>> parent of 5cc7043 (web)
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of 5cc7043 (web)
+    <!-- home section ends -->
+    <!-- banner section starts  -->
+    <section class="banner-container">
+        <div class="container-lg">
+            <div class="col-md">
+                <div class="banner">
+<<<<<<< HEAD
+                    <img width="555" height="900" src="image/shop_banner_img1.jpg" alt="" />
+=======
+                    <img width="555" height="900" src="~/image/shop_banner_img1.jpg" alt="" />
+>>>>>>> parent of 5cc7043 (web)
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="banner">
+<<<<<<< HEAD
+                    <img width="555" height="694" src="image/shop_banner_img2.jpg" alt="" />
+=======
+                    <img width="555" height="694" src="~/image/shop_banner_img2.jpg" alt="" />
+>>>>>>> parent of 5cc7043 (web)
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner section ends -->
+    <!-- products section starts  -->
+
+    <section class="products" id="products">
+        <h1 class="heading">THIẾT KẾ MỚI</h1>
+        <div class="container-lg">
+            <div class="col-md-auto box" data-item="featured">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart " onclick="them(this)"></a>
+                    <a href="#" class="fas fa-heart" onclick="favourite(this)"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="product.html" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+<<<<<<< HEAD
+                    <img src="image/product_img1.jpg" alt="" />
+                </div>
+                <div class="content">
+                    <h3>Đầm ngắn 2 dây</h3>
+                    </h3>
+=======
+                    <img src="~/image/product_img1.jpg" alt="" />
+                </div>
+                <div class="content">
+                    <h3>Đầm ngắn 2 dây</h3>
+>>>>>>> parent of 5cc7043 (web)
+                    <div class="price">
+                        <div class="amount"><span>1099000</span>đ</div>
+                        <div class="cut">1.319.000đ</div>
+                        <div class="offer">20% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(89)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-auto box" data-item="featured">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart" onclick="them(this)"></a>
+                    <a href="#" class="fas fa-heart" onclick="favourite(this)"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+<<<<<<< HEAD
+                    <img src="image/product_img2.jpg" alt="" />
+=======
+                    <img src="~/image/product_img2.jpg" alt="" />
+>>>>>>> parent of 5cc7043 (web)
+                </div>
+                <div class="content">
+                    <h3>blazer nam trắng</h3>
+                    <div class="price">
+                        <div class="amount"><span>1690000</span>đ</div>
+                        <div class="cut">2.199.000đ</div>
+                        <div class="offer">30% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(135)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-auto box " data-item="seller">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart" onclick="them(this)"></a>
+                    <a href="#" class="fas fa-heart" onclick="favourite(this)"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+<<<<<<< HEAD
+                    <img src="image/product_img3.jpg" alt="" />
+=======
+                    <img src="~/image/product_img3.jpg" alt="" />
+>>>>>>> parent of 5cc7043 (web)
+                </div>
+                <div class="content">
+                    <h3>Áo 2 dây xếp li</h3>
+                    <div class="price">
+                        <div class="amount"><span>359000</span>đ</div>
+                        <div class="cut">413.000đ</div>
+                        <div class="offer">15% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(74)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-auto box" data-item="arrivals">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart" onclick="them(this)"></a>
+                    <a href="#" class="fas fa-heart" onclick="favourite(this)"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+<<<<<<< HEAD
+                    <img src="image/product_img4.jpg" alt="" />
+=======
+                    <img src="~/image/product_img4.jpg" alt="" />
+>>>>>>> parent of 5cc7043 (web)
+                </div>
+                <div class="content">
+                    <h3>sơ mi tay dài</h3>
+                    <div class="price">
+                        <div class="amount"><span>995000</span>đ</div>
+                        <div class="cut">1.144.000đ</div>
+                        <div class="offer">15% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(55)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-all-product text-center ">
+            <button class="btn-xem-all">Xem tất cả <i class="fas fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <section class="banner-container">
+        <div class="container-lg">
+            <div class="col-md">
+                <div class="banner">
+<<<<<<< HEAD
+                    <img width="800" height="900" src="image/model1.jpg" alt="" />
+=======
+                    <img width="800" height="900" src="~/image/model1.jpg" alt="" />
+>>>>>>> parent of 5cc7043 (web)
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="banner">
+<<<<<<< HEAD
+                    <img width="800" height="694" src="image/model2.jpg" alt="" />
+=======
+                    <img width="800" height="694" src="~/image/model2.jpg" alt="" />
+>>>>>>> parent of 5cc7043 (web)
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading">SALE OFF</h1>
+        <div class="container-lg">
+            <div class="col-md-auto box" data-item="featured">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart " onclick="them(this)"></a>
+                    <a href="#" class="fas fa-heart" onclick="favourite(this)"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="product.html" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+<<<<<<< HEAD
+                    <img src="image/product_img1.jpg" alt="" />
+                </div>
+                <div class="content">
+                    <h3>Đầm ngắn 2 dây</h3>
+                    </h3>
+=======
+                    <img src="~/image/product_img1.jpg" alt="" />
+                </div>
+                <div class="content">
+                    <h3>Đầm ngắn 2 dây</h3>
+>>>>>>> parent of 5cc7043 (web)
+                    <div class="price">
+                        <div class="amount"><span>1099000</span>đ</div>
+                        <div class="cut">1.319.000đ</div>
+                        <div class="offer">20% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(89)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-auto box" data-item="featured">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart" onclick="them(this)"></a>
+                    <a href="#" class="fas fa-heart" onclick="favourite(this)"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+<<<<<<< HEAD
+                    <img src="image/product_img2.jpg" alt="" />
+=======
+                    <img src="~/image/product_img2.jpg" alt="" />
+>>>>>>> parent of 5cc7043 (web)
+                </div>
+                <div class="content">
+                    <h3>blazer nam trắng</h3>
+                    <div class="price">
+                        <div class="amount"><span>1690000</span>đ</div>
+                        <div class="cut">2.199.000đ</div>
+                        <div class="offer">30% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(135)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-auto box " data-item="seller">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart" onclick="them(this)"></a>
+                    <a href="#" class="fas fa-heart" onclick="favourite(this)"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img3.jpg" alt="" />
+                </div>
+                <div class="content">
+                    <h3>Áo 2 dây xếp li</h3>
+                    <div class="price">
+                        <div class="amount"><span>359000</span>đ</div>
+                        <div class="cut">413.000đ</div>
+                        <div class="offer">15% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(74)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-auto box" data-item="arrivals">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart" onclick="them(this)"></a>
+                    <a href="#" class="fas fa-heart" onclick="favourite(this)"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+<<<<<<< HEAD
+                    <img src="image/product_img4.jpg" alt="" />
+=======
+                    <img src="~/image/product_img4.jpg" alt="" />
+>>>>>>> parent of 5cc7043 (web)
+                </div>
+                <div class="content">
+                    <h3>sơ mi tay dài</h3>
+                    <div class="price">
+                        <div class="amount"><span>995000</span>đ</div>
+                        <div class="cut">1.144.000đ</div>
+                        <div class="offer">15% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(55)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-all-product text-center ">
+            <button class="btn-xem-all">Xem tất cả <i class="fas fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <section class="banner-container">
+        <h1 class="heading">LOOK BOOK</h1>
+        <div class="slideshow-container">
+            <div class="slides">
+                <button class="prev">❮</button>
+                <div class="slide">
+<<<<<<< HEAD
+                    <img width="555" height="694" src="image/banner_lookbook1.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img width="555" height="694" src="image/banner_lookbook2.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img width="555" height="694" src="image/banner_lookbook3.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img width="555" height="694" src="image/banner_lookbook4.jpg" alt="" />
+=======
+                    <img width="555" height="694" src="~/image//banner_lookbook1.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img width="555" height="694" src="~/image//banner_lookbook2.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img width="555" height="694" src="~/image//banner_lookbook3.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img width="555" height="694" src="~/image//banner_lookbook4.jpg" alt="" />
+>>>>>>> parent of 5cc7043 (web)
+                </div>
+            </div>
+            <button class="next">❯</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+
+    <!-- products section ends -->
+    <!-- deal section starts  -->
+    <!-- deal section ends -->
+    <!-- contact section starts  -->
+    <!-- contact section ends -->
+    <!-- footer section starts  -->
+
+    <section class="footer">
+        <footer class="footer">
+            <div class="contact-info">
+<<<<<<< HEAD
+                <a href="#" class="logo"><img src="image/logo.jpg" alt="Logo"></a>
+=======
+                <a href="#" class="logo"><img src="~/image/logo.jpg" alt="Logo"></a>
+>>>>>>> parent of 5cc7043 (web)
+                <div class="contact-details">
+                    <div>ZOE - Văn phòng</div>
+                    <div>ZOE - Lê Quý Đôn (Book Coffee)</div>
+                    <div>ZOE® SNEAKER & CRAFT: số 173A đường Nguyễn Văn Hưởng, phường Thảo Điền, Quận 2, HCM</div>
+                </div>
+                <div class="contact-other">
+                    <div>Điện thoại: 0931999499</div>
+                    <div>Email: <a href="mailto:cskh.giaystore@gmail.com">cskh.giaystore@gmail.com</a></div>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#" alt="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" alt="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#" alt="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="policies">
+                <a href="#">HƯỚNG DẪN MUA HÀNG</a> |
+                <a href="#">HÌNH THỨC THANH TOÁN</a> |
+                <a href="#">CHÍNH SÁCH BẢO HÀNH - ĐỔI TRẢ</a> |
+                <a href="#">CHÍNH SÁCH BẢO MẬT</a> |
+                <a href="#">CHÍNH SÁCH KIỂM HÀNG</a> |
+                <a href="#">CHÍNH SÁCH GIAO HÀNG</a>
+            </div>
+            <div class="certification">
+<<<<<<< HEAD
+                <img src="./image/gov.jpg" alt="Đã Thông Báo Bộ Công Thương">
+=======
+                <img src="~/image/gov.jpg" alt="Đã Thông Báo Bộ Công Thương">
+>>>>>>> parent of 5cc7043 (web)
+            </div>
+            <div class="copyright">
+                Copyright © 2024 ZOE®. Powered by Haravan
+            </div>
+        </footer>
+    </section>
+
+    <script src="js/script.js"></script>
+<<<<<<< HEAD
+>>>>>>> parent of be4c06e (Sua file anh index)
+=======
+>>>>>>> parent of 5cc7043 (web)
+</body>
+
+</html>
